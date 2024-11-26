@@ -73,10 +73,11 @@ function canvasApp() {
 
 		//particle color
 		r = 0;
-		g = 72;
-		b = 255;
+		g = 255;
+		b = 72;
 
-		rgbString = "rgba(" + r + "," + g + "," + b + ","; //partial string for color which will be completed by appending alpha value.
+		rgbString = "rgba(" + r + "," + g + "," + b + ",";
+         //partial string for color which will be completed by appending alpha value.
 		particleAlpha = 1; //maximum alpha
 
 		displayWidth = theCanvas.width;
